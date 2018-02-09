@@ -27,6 +27,7 @@
   },
   "homepage": "http://cssinjs.org",
   "dependencies": {
+    "colors": "^1.1.2",
     "commander": "^2.8.1",
     "css": "^2.2.0",
     "jss": "^9.0.0",

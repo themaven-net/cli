@@ -79,7 +79,10 @@ program
 program
   .command('convert [src]')
   .action(function onConvert(src) {
-    if (src) console.log(convert(src))
+    if (src) {
+      console.error("converting " + src)
+      console.log(convert(src))
+    }
     else if (program.multiline) {
       console.log('Input source:')
       multilinePrompt((src) => {
